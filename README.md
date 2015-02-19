@@ -1,1 +1,1 @@
-# xllapp-api-archetype
+客户端接口开发框架（基于icity-cache，icity-mybatis和icity-log等），用于快速开发符合爱城市接口规范的客户端接口;通过对缓存,异步消息等功能的封装,使得开发人员只需关注业务功能的实现。同时也是一个maven原型项目,用于生成开发客户端接口模块项目。
