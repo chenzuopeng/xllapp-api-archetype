@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd"
+	default-lazy-init="false">
+
+	<description>接口配置</description>
+
+	<!-- <bean id="/demo/search" parent="abstractCachedController" class="org.xllapp.api.demo.controller.DemoCachedController" /> -->
+
+	<!-- <bean id="/demo/add" class="org.xllapp.api.demo.controller.DemoController" /> -->
+
+    <!--<bean id="/demo/event" class="org.xllapp.api.demo.controller.DemoFireEventController">
+	     <property name="jmsProducer" ref="jmsProducer" />
+	</bean> -->
+	
+	<bean id="/demo/json" class="org.xllapp.api.demo.controller.DemoJSONController" />
+	
+	<bean id="/demo/config/get" class="org.xllapp.api.demo.controller.ConfigDemoController" />
+	
+	<!-- <bean id="/demo/json/cached" parent="abstractCachedController"  class="org.xllapp.api.demo.controller.DemoCachedJSONController" /> -->
+	
+
+</beans>
