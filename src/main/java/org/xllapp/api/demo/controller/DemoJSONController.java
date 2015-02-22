@@ -2,8 +2,6 @@ package org.xllapp.api.demo.controller;
 
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
-
 import org.xllapp.api.core.JSONController;
 import org.xllapp.api.core.exception.ApiException;
 import org.xllapp.api.core.exception.InvalidRequestArgumentException;
